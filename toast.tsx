@@ -81,7 +81,7 @@ interface ToastState
 }
 
 // Yüzde hesaplama fonksiyonu
-export function wp(percent: number) {
+function wp(percent: number) {
     return (SCREEN_WIDTH * percent) / 100;
 }
 
